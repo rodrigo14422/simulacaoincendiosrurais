@@ -1,1 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulador de Prevenção a Incêndios Rurais - Agrinho 2026</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
+    <header>
+        <h1>Simulador de Prevenção a Incêndios Rurais</h1>
+        <p>Concurso Agrinho 2026 | Tema: <em>"Agro forte, futuro sustentável: equilíbrio entre produção e meio ambiente"</em></p>
+    </header>
+
+    <main>
+        <section id="introducao">
+            <h2>Avalie o Risco da Sua Propriedade</h2>
+            <p>Os incêndios rurais causam severos prejuízos ambientais e econômicos, especialmente em períodos de seca extrema. Responda ao checklist técnico abaixo baseado nas recomendações de segurança do Sistema FAEP/SENAR-PR para descobrir o seu Score de Risco e receber orientações personalizadas.</p>
+        </section>
+
+        <section id="simulador">
+            <form id="form-simulador">
+                
+                <article class="grupo-pergunta">
+                    <h3>1. Manutenção e Limpeza de Maquinários</h3>
+                    <label for="limpeza-maquinas">Com que frequência é realizada a limpeza completa e a inspeção de resíduos secos nas colheitadeiras e tratores antes do uso?</label>
+                    <select id="limpeza-maquinas" required>
+                        <option value="">Selecione uma opção</option>
+                        <option value="sempre">Sempre (Antes de cada operação no campo)</option>
+                        <option value="as-vezes">Às vezes (Apenas no fim de semana ou periodicamente)</option>
+                        <option value="nunca">Nunca/Raramente (Apenas quando apresenta defeito)</option>
+                    </select>
+                </article>
+
+                <article class="grupo-pergunta">
+                    <h3>2. Entrada de Terceiros e Riscos Externos</h3>
+                    <label for="maquinas-externas">Sua propriedade exige a limpeza prévia de máquinas prestadoras de serviço (vindas de fora) antes de entrarem nas áreas de cultivo?</label>
+                    <select id="maquinas-externas" required>
+                        <option value="">Selecione uma opção</option>
+                        <option value="sim">Sim, fiscalizamos rigorosamente</option>
+                        <option value="nao">Não, entram direto para o trabalho</option>
+                    </select>
+                </article>
+
+                <article class="grupo-pergunta">
+                    <h3>3. Aceiros e Faixas de Domínio</h3>
+                    <label for="aceiros">A propriedade possui manutenção atualizada de aceiros (faixas de terra limpa de vegetação) nas divisas e próximos a rodovias?</label>
+                    <select id="aceiros" required>
+                        <option value="">Selecione uma opção</option>
+                        <option value="sim">Sim, todas as áreas críticas possuem aceiros</option>
+                        <option value="parcial">Apenas em algumas divisas</option>
+                        <option value="nao">Não possuímos aceiros</option>
+                    </select>
+                </article>
+
+                <article class="grupo-pergunta">
+                    <h3>4. Combustíveis e Normas de Segurança</h3>
+                    <label for="armazenamento">O armazenamento de combustíveis e inflamáveis segue estritamente as normas de segurança do trabalho rural?</label>
+                    <select id="armazenamento" required>
+                        <option value="">Selecione uma opção</option>
+                        <option value="sim">Sim, área isolada, sinalizada e protegida</option>
+                        <option value="nao">Não/Armazenamento improvisado</option>
+                    </select>
+                </article>
+
+                <article class="grupo-pergunta">
+                    <h3>5. Monitoramento Avançado</h3>
+                    <label for="tecnologia">A propriedade utiliza tecnologias de monitoramento (como drones, sensores ou brigadas treinadas por cursos do SENAR-PR
